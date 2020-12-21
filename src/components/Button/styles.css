@@ -1,0 +1,22 @@
+.button {
+    background-color: var(--color-light);
+    justify-content: center;
+    cursor: pointer;
+    width: 48%;
+    border-radius: 10px;
+    margin: 8% auto;
+    padding: 4%;
+}
+
+.button button {
+    background-color: transparent;
+    color: var(--color-primary);
+    border: none;
+    font-weight: bold;
+    width: 100%;
+}
+
+.button button:hover {
+    transition: 0.5s;
+    color: var(--color-dark);
+}

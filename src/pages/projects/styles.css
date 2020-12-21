@@ -1,0 +1,24 @@
+.buttonBack {
+    width: 100%;
+    background-color: var(--color-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonBack a {
+    color: var(--color-light);
+    text-transform: lowercase;
+}
+
+.buttonBack a:hover {
+    transition: 0.5s;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.buttonBack img {
+    cursor: pointer;
+    width: 8%;
+    height: 8%;
+}

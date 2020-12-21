@@ -1,0 +1,17 @@
+.technologies {
+    background-color: var(--color-primary);
+    width: 100%;
+    padding: 20% 2%;
+}
+
+.technologies h1 {
+    color: var(--color-light);
+    text-align: center;
+}
+
+.technologies div {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    padding: 0 2%;
+}

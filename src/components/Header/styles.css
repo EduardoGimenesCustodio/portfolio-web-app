@@ -1,0 +1,22 @@
+header {
+    font-family: 'Big Shoulders Stencil Text', sans-serif;
+    display: flex;
+    background-color: var(--color-dark);
+    width: 100%;
+    padding: 2%;
+}
+
+header a {
+    color: var(--color-primary);
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+header img {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+}

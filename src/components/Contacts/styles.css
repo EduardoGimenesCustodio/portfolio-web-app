@@ -1,0 +1,17 @@
+.contacts {
+    background-color: var(--color-dark);
+    width: 100%;
+    padding: 20% 2%;
+}
+
+.contacts h1 {
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.contacts div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2%;
+}
