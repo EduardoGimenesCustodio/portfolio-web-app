@@ -60,6 +60,10 @@
     width: 52%;
 }
 
+.description-box .buttons {
+    width: 100%;
+}
+
 .logo {
     font-family: 'Big Shoulders Stencil Text', sans-serif;
     color: var(--color-primary);
@@ -149,5 +153,24 @@
     
     .logo:hover {
         font-size: 60px;
+    }
+}
+
+/* LARGE DEVICES - WIDE SCREENS */
+/* 1280 */
+@media screen and (min-width: 1280px) {
+    .title-box {
+        padding: 6% 5% 0.5% 5%;
+        margin-bottom: 0;
+    }
+
+    .description-box {
+        display: flex;
+        align-items: center;
+        padding: 2%;
+    }
+
+    .description-box div {
+        width: 50%;
     }
 }
