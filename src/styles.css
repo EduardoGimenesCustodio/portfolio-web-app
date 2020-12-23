@@ -9,12 +9,13 @@
 body {
     font-family: 'Spartan', sans-serif;
     background: url("./background.jpg") no-repeat fixed;
+    background-size: cover;
 }
 
 :root {
     --color-primary: #00A856;
     --color-dark: #333;
-    --color-dark-opacity: rgba(51, 51, 51, 0.85);
+    --color-dark-opacity: rgba(51, 51, 51, 0.92);
     --color-light: #ffffff;
 }
 
@@ -32,4 +33,46 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+
+/* SMALL DEVICES - SMARTPHONES */
+/* 480 x 800 */
+@media screen and (min-width: 480px) {
+    .title {
+        font-size: 22px;
+    }
+    
+    .text {
+        font-size: 18px;
+    }
+}
+
+/* SMALL DEVICES - TABLETS */
+/* 768 x 1024 */
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: 27px;
+    }
+    
+    .text {
+        font-size: 22px;
+    }
+}
+
+/* MEDIUM DEVICES - TABLETS & DESKTOPS */
+/* 960 x 1280*/
+@media screen and (min-width: 960px) {
+    .title {
+        font-size: 30px;
+    }
+    
+    .text {
+        font-size: 25px;
+    }
+}
+
+/* LARGE DEVICES - WIDE SCREENS */
+/* 1280 */
+@media screen and (min-width: 1280px) {
+
 }

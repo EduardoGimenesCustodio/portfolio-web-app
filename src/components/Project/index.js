@@ -12,7 +12,9 @@ React.Component {
                     <h1 className="title">{this.props.title}</h1>
                 </div>
                 <div className="description-box">
+                    <h2 className="logo">{this.props.text_logo}</h2>
                     <img src={this.props.src} alt={this.props.alt} ></img>
+                    
                     <p className="text">{this.props.text}</p>
                     <p className="text">{this.props.technologies}</p>
                     <div className="buttons">

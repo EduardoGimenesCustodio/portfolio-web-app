@@ -7,9 +7,12 @@ import Contacts from "../../components/Contacts";
 import Technologies from "../../components/Technologies";
 
 const Main = () => (
-    <div>
-        <About />
-        <Contacts />
+    <div className="main">
+        <section>
+            <About />
+            <Contacts />
+        </section>
+
         <Technologies />
     </div>
 );

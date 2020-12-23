@@ -4,3 +4,32 @@
     width: 100%;
     padding: 20% 2%;
 }
+
+/* SMALL DEVICES - SMARTPHONES */
+/* 480 x 800 */
+@media screen and (min-width: 480px) {
+    .about {
+        padding: 15% 2%;
+    }
+}
+
+/* SMALL DEVICES - TABLETS */
+/* 768 x 1024 */
+@media screen and (min-width: 768px) {
+    .about {
+        width: 60%;
+        padding: 10%;
+    }
+}
+
+/* MEDIUM DEVICES - TABLETS & DESKTOPS */
+/* 960 x 1280*/
+@media screen and (min-width: 960px) {
+    .about {
+        padding: 5%;
+    }
+
+    .about p {
+        text-align: justify;
+    }
+}

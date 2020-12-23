@@ -9,8 +9,7 @@ header {
 header a {
     color: var(--color-primary);
     text-transform: uppercase;
-    text-align: center;
-    width: 100%;
+    margin: 0 auto;
     font-weight: 900;
     font-size: 30px;
 }
@@ -19,4 +18,45 @@ header img {
     cursor: pointer;
     width: 35px;
     height: 35px;
+}
+
+/* SMALL DEVICES - SMARTPHONES */
+/* 480 x 800 */
+@media screen and (min-width: 480px) {
+    header a {
+        font-size: 32px;
+    }
+}
+
+/* SMALL DEVICES - TABLETS */
+/* 768 x 1024 */
+@media screen and (min-width: 768px) {
+    header a {
+        font-size: 35px;
+    }
+}
+
+/* MEDIUM DEVICES - TABLETS & DESKTOPS */
+/* 960 x 1280*/
+@media screen and (min-width: 960px) {
+    header {
+        padding: 2% 5%;
+    }
+
+    header a {
+        font-size: 45px;
+        margin: 0;
+    }
+}
+
+/* LARGE DEVICES - WIDE SCREENS */
+/* 1280 */
+@media screen and (min-width: 1280px) {
+    header {
+        padding: 1% 5%;
+    }
+
+    header a {
+        font-size: 40px;
+    }
 }

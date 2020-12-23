@@ -7,7 +7,7 @@ React.Component {
     render() {
         return (
             <a className="technology">
-                <img src={this.props.src}></img>
+                <img src={this.props.src} alt={this.props.alt}></img>
             </a>
         );
     }

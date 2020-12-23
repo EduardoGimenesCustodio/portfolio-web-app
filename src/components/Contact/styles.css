@@ -1,19 +1,32 @@
 .contact {
     width: 18%;
-    height: 18%;
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 0 auto;
     padding: 2%;
 }
 
 .contact img {
     width: 100%;
-    height: 100%;
 }
 
 .contact:hover  {
     transition: 0.5s;
-    padding: 1%;
+    padding: 1.5%;
+}
+
+/* SMALL DEVICES - TABLETS */
+/* 768 x 1024 */
+@media screen and (min-width: 768px) {
+    .contact {
+        width: 15%;
+    }
+}
+
+/* MEDIUM DEVICES - TABLETS & DESKTOPS */
+/* 960 x 1280*/
+@media screen and (min-width: 960px) {
+    .contact {
+        width: 20%;
+    }
 }

@@ -15,3 +15,29 @@
     width: 100%;
     padding: 0 2%;
 }
+
+/* SMALL DEVICES - SMARTPHONES */
+/* 480 x 800 */
+@media screen and (min-width: 480px) {
+    .contacts {
+        padding: 15% 2%;
+    }
+}
+
+/* SMALL DEVICES - TABLETS */
+/* 768 x 1024 */
+@media screen and (min-width: 768px) {
+    .contacts {
+        padding: 10%;
+    }
+}
+
+/* MEDIUM DEVICES - TABLETS & DESKTOPS */
+/* 960 x 1280*/
+@media screen and (min-width: 960px) {
+    .contacts {
+        background-color: var(--color-dark-opacity);
+        width: 40%;
+        padding: 5% 2%;
+    }
+}

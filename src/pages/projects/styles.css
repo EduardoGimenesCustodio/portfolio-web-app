@@ -8,17 +8,44 @@
 
 .buttonBack a {
     color: var(--color-light);
+    font-weight: bold;
     text-transform: lowercase;
 }
 
 .buttonBack a:hover {
-    transition: 0.5s;
     color: var(--color-primary);
-    font-weight: bold;
+    transition: 0.5s;
 }
 
 .buttonBack img {
     cursor: pointer;
     width: 8%;
     height: 8%;
+}
+
+/* SMALL DEVICES - TABLETS */
+/* 768 x 1024 */
+@media screen and (min-width: 768px) {
+    .buttonBack img {
+        width: 6%;
+        height: 6%;
+    }
+}
+
+/* MEDIUM DEVICES - TABLETS & DESKTOPS */
+/* 960 x 1280*/
+@media screen and (min-width: 960px) {
+    .buttonBack img {
+        width: 5%;
+        height: 5%;
+    }
+}
+
+/* LARGE DEVICES - WIDE SCREENS */
+/* 1280 */
+@media screen and (min-width: 1280px) {
+    .buttonBack img {
+        width: 3%;
+        height: 3%;
+    }
 }

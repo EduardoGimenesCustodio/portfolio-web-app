@@ -1,22 +1,37 @@
 .button {
     background-color: var(--color-light);
-    justify-content: center;
-    cursor: pointer;
+    color: var(--color-primary);
+    text-align: center;
+    font-weight: bold;
     width: 48%;
     border-radius: 10px;
     margin: 8% auto;
-    padding: 4%;
+    padding: 4% 2%;
 }
 
-.button button {
-    background-color: transparent;
-    color: var(--color-primary);
-    border: none;
-    font-weight: bold;
-    width: 100%;
-}
-
-.button button:hover {
+.button:hover {
     transition: 0.5s;
     color: var(--color-dark);
+}
+
+/* SMALL DEVICES - TABLETS */
+/* 768 x 1024 */
+@media screen and (min-width: 768px) {
+    .button {
+        margin: 4% auto;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .button {
+        padding: 2%;
+    }
+}
+
+/* LARGE DEVICES - WIDE SCREENS */
+/* 1280 */
+@media screen and (min-width: 1280px) {
+    .button {
+        width: 40%;
+    }
 }
