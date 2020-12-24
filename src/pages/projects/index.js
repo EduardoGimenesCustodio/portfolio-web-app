@@ -23,7 +23,7 @@ const Projects = () => (
         <Project title="Feelings"
         text="Site no qual usuários compartilham experiências cotidianas e falam sobre seus sentimentos, interagindo em uma comunidade em que todos os integrantes tem por objetivo não deixar que as pessoas se sintam só."
         technologies="Tecnologias usadas: JavaScript, HTML, CSS, Node.JS, MongoDB e NoSQL."
-        src="./img/projects/logo_feelings2.png" alt="Logo Feelings" github="https://github.com/EduardoGimenesCustodio/feelings"
+        src="./img/projects/logo_feelings.svg" alt="Logo Feelings" github="https://github.com/EduardoGimenesCustodio/feelings"
         link="http://feelingsblog-com-br.umbler.net" color="primary" />
     </div>
 );
