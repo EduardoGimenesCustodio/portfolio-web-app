@@ -1,7 +1,7 @@
 /* MEDIUM DEVICES - TABLETS & DESKTOPS */
 /* 960 x 1280*/
 @media screen and (min-width: 960px) {
-    .main section {
+    .main .main-section {
         display: flex;
     }
 }

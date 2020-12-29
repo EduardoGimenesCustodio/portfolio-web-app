@@ -6,9 +6,10 @@ export default class Technology extends
 React.Component {
     render() {
         return (
-            <a className="technology">
+            <section className="technology">
                 <img src={this.props.src} alt={this.props.alt}></img>
-            </a>
+                <p>{this.props.name}</p>
+            </section>
         );
     }
 }

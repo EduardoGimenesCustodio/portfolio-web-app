@@ -4,16 +4,16 @@
     padding: 20% 2%;
 }
 
-.technologies section {
+.technologies .technologies-section {
     display: block;
 }
 
-.technologies section h1 {
+.technologies .technologies-section h1 {
     color: var(--color-dark);
     text-align: center;
 }
 
-.technologies section div {
+.technologies .technologies-section div {
     display: flex;
     width: 100%;
     padding: 0 2%;
@@ -52,9 +52,7 @@
         padding: 5% 0;
     }
 
-    .technologies section {
+    .technologies .technologies-section {
         width: 33%;
     }
 }
-
-/* // 08000017579 */

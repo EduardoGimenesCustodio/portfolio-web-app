@@ -10,7 +10,7 @@ const About = () => (
         <p className="text">Desenvolvedor web, técnico em Informática para Internet pelo IFMS e estudante de Sistemas de Informação na UFGD.</p>
         
         <div className="buttons">
-            <Button text="meus projetos" href="/projects" />
+            <Button text="ver projetos" href="/projects" />
         </div>
     </div>
 );

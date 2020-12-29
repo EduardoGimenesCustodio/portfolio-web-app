@@ -1,11 +1,17 @@
 .technology {
     background-color: var(--color-dark);
     width: 20%;
-    display: flex;
-    align-items: center;
     margin: 0 auto 8% auto;
     padding: 2%;
     border-radius: 10px;
+}
+
+.technology p {
+    color: var(--color-light);
+    text-align: center;
+    font-weight: bold;
+    font-size: 8px;
+    margin-top: 2%;
 }
 
 .technology img {
@@ -22,6 +28,10 @@
 @media screen and (min-width: 768px) {
     .technology {
         width: 17%;
+    }
+
+    .technology p {
+        font-size: 10px;
     }
 }
 

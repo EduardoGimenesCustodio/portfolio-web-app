@@ -8,7 +8,7 @@ import Technologies from "../../components/Technologies";
 
 const Main = () => (
     <div className="main">
-        <section>
+        <section className="main-section">
             <About />
             <Contacts />
         </section>
