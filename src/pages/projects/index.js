@@ -18,7 +18,7 @@ const Projects = () => (
         text="Site no qual compartilho informações sobre mim e projetos que desenvolvi."
         technologies="Tecnologias usadas: JavaScript, HTML, CSS, Node.JS e ReactJS."
         text_logo="Eduardo Gimenes" github="https://github.com/EduardoGimenesCustodio/portfolio"
-        link="http://eduardogimenes-com-br.umbler.net" color="dark" />
+        link="https://eduardogimenes.netlify.app/" color="dark" />
 
         <Project title="Feelings"
         text="Site no qual usuários compartilham experiências cotidianas e falam sobre seus sentimentos, interagindo em uma comunidade em que todos os integrantes tem por objetivo não deixar que as pessoas se sintam só."
