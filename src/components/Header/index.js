@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 import "./styles.css";
 
 const Header = () => (
     <header>
-        <a href="/">Eduardo Gimenes</a>
+        <Link to="/">Eduardo Gimenes</Link>
     </header>
 );
 

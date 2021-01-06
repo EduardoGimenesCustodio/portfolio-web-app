@@ -3,11 +3,8 @@ import Routes from "./routes";
 
 import "./styles.css";
 
-import Header from "./components/Header";
-
 const App = () => (
   <div>
-    <Header />
     <Routes />
   </div>
 );

@@ -2,7 +2,7 @@ import React from "react";
 
 import "./styles.css";
 
-import Button from "./../Button";
+import ButtonLink from "./../ButtonLink";
 
 const About = () => (
     <div className="about">
@@ -10,7 +10,7 @@ const About = () => (
         <p className="text">Desenvolvedor web, técnico em Informática para Internet pelo IFMS e estudante de Sistemas de Informação na UFGD.</p>
         
         <div className="buttons">
-            <Button text="ver projetos" href="/projects" />
+            <ButtonLink text="ver projetos" to="/projects" />
         </div>
     </div>
 );

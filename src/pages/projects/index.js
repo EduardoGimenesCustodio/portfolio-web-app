@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 import "./styles.css";
 
@@ -6,7 +7,7 @@ import Project from "../../components/Project";
 
 const Projects = () => (
     <div className="projects">
-        <div className="buttonBack"><img href="/" src="./img/icons/icon-back.svg" alt="Ícone voltar"></img><a className="text" href="/">Voltar</a></div>
+        <div className="buttonBack"><Link className="buttonBackImg" to="/"><img src="./img/icons/icon-back.svg" alt="Ícone voltar"></img></Link><Link className="text" to="/">Voltar</Link></div>
         
         <Project title="InfoTrips"
         text="Site informativo sobre viagens internacionais no qual brasileiros podem consultar as regras de outros países para a entrada de estrangeiros em seus territórios."
