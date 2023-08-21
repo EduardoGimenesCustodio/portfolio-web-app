@@ -1,19 +1,19 @@
 import React from "react";
 
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header";
 import Main from "./pages/main";
 import Projects from "./pages/projects";
 
-const Routes = () => (
+export default function AppRoutes() {
+  return (
     <BrowserRouter>
-        <Header />
-        <Switch>
-            <Route exact path="/" component={Main} />
-            <Route path="/projects" component={Projects} />
-        </Switch>
+      <Header />
+      <Routes>
+        <Route exact path="/" element={<Main />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
     </BrowserRouter>
-);
-
-export default Routes;
+  );
+}
