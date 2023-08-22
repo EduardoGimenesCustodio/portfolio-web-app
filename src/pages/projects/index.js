@@ -24,7 +24,7 @@ const Projects = () => {
         src="./img/projects/logo_infotrips.svg"
         alt="Logo InfoTrips"
         github="https://github.com/EduardoGimenesCustodio/InfoTrips"
-        link="http://infotrips-com-br.umbler.net"
+        // link="http://infotrips-com-br.umbler.net"
         color="primary"
       />
 
@@ -46,7 +46,7 @@ const Projects = () => {
         src="./img/projects/logo_feelings.svg"
         alt="Logo Feelings"
         github="https://github.com/EduardoGimenesCustodio/feelings"
-        link="http://feelingsblog-com-br.umbler.net"
+        // link="http://feelingsblog-com-br.umbler.net"
         color="primary"
       />
 
@@ -56,7 +56,7 @@ const Projects = () => {
         technologies="Tecnologias usadas: JavaScript, HTML, CSS, Node.JS e ReactJS."
         text_logo="Eduardo Gimenes"
         github="https://github.com/EduardoGimenesCustodio/portfolio"
-        link="https://eduardogimenes.netlify.app/"
+        // link="https://eduardogimenes.netlify.app/"
         color="dark"
       />
     </div>
