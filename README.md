@@ -1,6 +1,6 @@
 ## Description
 
-Site where professional information and information about developed projects are shared.
+Website where professional information and information about developed projects are shared.
 
 ## Installation
 
