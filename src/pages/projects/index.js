@@ -35,7 +35,7 @@ const Projects = () => {
         src="./img/projects/logo_dsdeliver.svg"
         alt="Logo DS Deliver"
         github="https://github.com/EduardoGimenesCustodio/dsdeliver-sds2"
-        link="https://dsdelivery-eg.netlify.app/"
+        link="https://dsdelivery-web-app.onrender.com"
         color="dark"
       />
 
